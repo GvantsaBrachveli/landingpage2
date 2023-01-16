@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#FAF8ED;
+    font-family: "inter"
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 135px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 89px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    gap: 36px;
+}
+.logos a{
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #2E476B;
+    text-decoration: none;
+}
+.booking{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border: 1.4px solid #F66F4D;
+    border-radius: 27px;
+    padding: 20px 34px
+}
+.booking span{
+    font-weight: 500;
+    color: #F66F4D;
+}
+
+.main{
+    padding: 0 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    margin-bottom: 84px;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.title h1{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2D3134;
+}
+.title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5B5F62;
+}
+.title nav{
+    display: flex;
+    gap: 34px;    
+    }
+
+.title nav a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2D3134;
+    border: 1px solid #3D3D3D;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+title nav a :hover{
+    color: #2D3134;
+}
