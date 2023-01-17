@@ -87,9 +87,10 @@ body{
     text-decoration: none;
     padding: 10px 20px;
 }
-title nav a :hover{
-    color: #2D3134;
-}
+.title nav a:hover {
+    background-color: #2D3134;
+    color: #FFFFFF;
+  }
 
 .gridsection{
     margin-bottom: 84px;
