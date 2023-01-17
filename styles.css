@@ -74,7 +74,7 @@ body{
 .title nav{
     display: flex;
     gap: 34px;    
-    }
+}
 
 .title nav a{
     font-family: 'Poppins';
@@ -94,32 +94,44 @@ title nav a :hover{
 .gridsection{
     margin-bottom: 84px;
     display: grid;
+    justify-content: center;
     grid-template-columns: 1.6fr 2fr 1fr 1.6fr;
     grid-template-rows: repeat(2,1fr);
     grid-template-areas: 
     "one two three three three " 
      "four two five six six";
      gap: 13px 30px;
-     
-     
 }
+
 .pic1{
    grid-area:one;
-}
+   position: relative;
+   text-align: left;
+} 
 .pic2{
     grid-area: two;
+    position: relative;
+    text-align: left;
 }
 .pic3{
     grid-area: three;
+    position: relative;
+    text-align: left;
 }
 .pic4{
     grid-area: four;
+    position: relative;
+    text-align: left;
 }
 .pic5{
     grid-area: five;
+    position: relative;
+    text-align: left;
 }
 .pic6{
     grid-area: six;
+    position: relative;
+    text-align: left;
 }
 
 .gridsection img{
@@ -127,6 +139,36 @@ title nav a :hover{
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    position: relative;
+}
+
+.numbers{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 5px 10px ;
+}
+.vietnam{
+    position: absolute;
+    bottom: 48px;
+    left: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.worefall{
+    position: absolute;
+    bottom: 14px;
+    left: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .footer{
